@@ -1,0 +1,37 @@
+body {
+  margin: 20px 70px; /* adding margin to body */
+  font-family: Arial, sans-serif; /* setting a fallback font */
+}
+
+header {
+  margin-bottom: 20px; /* adding margin below header */
+  text-align: center;
+}
+
+main h2 {
+  border-bottom: 1px solid black; /* adding border bottom */
+  margin: 0; /* resetting margin */
+  padding-bottom: 5px; /* adding space between text and border */
+}
+
+nav ul {
+  list-style-type: none; /* removing bullet points */
+  padding: 0; /* removing default padding */
+}
+
+nav ul li {
+  display: inline; /* displaying list items inline */
+  margin-right: 20px; /* adding margin between list items */
+}
+
+nav ul li a {
+  text-decoration: none; /* removing underline from links */
+}
+
+footer {
+  margin-top: 70px; /* adding margin above footer */
+}
+
+footer p{
+  margin: 0;
+}
